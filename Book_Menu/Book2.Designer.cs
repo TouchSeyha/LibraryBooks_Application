@@ -29,8 +29,8 @@
         private void InitializeComponent()
         {
             this.bookTitle1 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.bookTextBox = new System.Windows.Forms.RichTextBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -47,17 +47,6 @@
             this.bookTitle1.Text = "The Memoirs\r\nof \r\nSarah Bernhardt\r\n";
             this.bookTitle1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.pictureBox1.Image = global::Book_Menu.Properties.Resources.The_Memoirs_of_Sarah_Bernhardt;
-            this.pictureBox1.Location = new System.Drawing.Point(707, 12);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(243, 355);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 7;
-            this.pictureBox1.TabStop = false;
-            // 
             // bookTextBox
             // 
             this.bookTextBox.BackColor = System.Drawing.SystemColors.Info;
@@ -69,6 +58,17 @@
             this.bookTextBox.Size = new System.Drawing.Size(694, 861);
             this.bookTextBox.TabIndex = 9;
             this.bookTextBox.Text = "";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox1.Image = global::Book_Menu.Properties.Resources.The_Memoirs_of_Sarah_Bernhardt;
+            this.pictureBox1.Location = new System.Drawing.Point(707, 12);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(243, 355);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 7;
+            this.pictureBox1.TabStop = false;
             // 
             // Book2
             // 
@@ -82,6 +82,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "Book2";
             this.Text = "Book2";
+            this.Load += new System.EventHandler(this.Book2_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
