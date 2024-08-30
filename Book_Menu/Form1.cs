@@ -19,7 +19,7 @@ namespace Book_Menu
 
         private void githublogo_Click(object sender, EventArgs e)
         {
-            Process.Start("https://github.com/TouchSeyha/Reading_Books_Application");
+            Process.Start("https://github.com/TouchSeyha/LibraryBooks_Application.git");
         }
 
         private void bookCover1_Click(object sender, EventArgs e)
