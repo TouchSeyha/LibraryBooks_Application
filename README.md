@@ -42,14 +42,14 @@ To get started with the Reading Books Application, follow these steps:
     This command will download and install the necessary packages defined in the .csproj file.
     ```
 
-   The application should now be running on `http://localhost:3000`.
-
 ## Usage
 
 Once the application is up and running, you can:
 
 - **Choose a Books**: Choose what to read.
 - **Download the book**: Download by click on the book cover or title.
+
+To find your download book are in this path: "..\Book_Menu\bin\Debug"
 
 ## License
 
