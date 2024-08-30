@@ -63,6 +63,26 @@ namespace Book_Menu.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap A_Doctor_of_the_old_school {
+            get {
+                object obj = ResourceManager.GetObject("A Doctor of the old school", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Book_Logo {
+            get {
+                object obj = ResourceManager.GetObject("Book_Logo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icons8_book_64 {
             get {
                 object obj = ResourceManager.GetObject("icons8-book-64", resourceCulture);
@@ -106,6 +126,46 @@ namespace Book_Menu.Properties {
         internal static System.Drawing.Bitmap icons8_menu_64 {
             get {
                 object obj = ResourceManager.GetObject("icons8-menu-64", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap John_Gutenberg {
+            get {
+                object obj = ResourceManager.GetObject("John Gutenberg", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap The_Living_animals_of_the_world {
+            get {
+                object obj = ResourceManager.GetObject("The Living animals of the world", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap The_Memoirs_of_Sarah_Bernhardt {
+            get {
+                object obj = ResourceManager.GetObject("The Memoirs of Sarah Bernhardt", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap The_Old_Testament_of_the_King_James_Version_of_the_Bible {
+            get {
+                object obj = ResourceManager.GetObject("The Old Testament of the King James Version of the Bible", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
