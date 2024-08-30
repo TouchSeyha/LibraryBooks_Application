@@ -42,8 +42,6 @@ To get started with the Reading Books Application, follow these steps:
     This command will download and install the necessary packages defined in the .csproj file.
     ```
 
-   The application should now be running on `http://localhost:3000`.
-
 ## Usage
 
 Once the application is up and running, you can:
