@@ -51,6 +51,8 @@ Once the application is up and running, you can:
 - **Choose a Books**: Choose what to read.
 - **Download the book**: Download by click on the book cover or title.
 
+To find your download book are in this path: "..\Book_Menu\bin\Debug"
+
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
