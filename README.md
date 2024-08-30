@@ -41,13 +41,6 @@ To get started with the Reading Books Application, follow these steps:
     dotnet restore
     This command will download and install the necessary packages defined in the .csproj file.
     ```
-4. **Run the application:**
-
-   Start the development server with the following command:
-
-   ```bash
-   npm start
-   ```
 
    The application should now be running on `http://localhost:3000`.
 
